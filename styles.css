@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Mukta:wght@300&family=Orbitron:wght@400;900&family=Playfair+Display:ital@1&family=REM:ital,wght@1,700&family=Roboto:wght@100&display=swap');
+.elements{
+   
+    font-family: 'Roboto', sans-serif;
+    }
+.elements-container{    
+    display: flex;
+    align-items: center;
+}
+
+.elements-container a{
+    display: flex;
+    width: 50px;
+    border-radius: 3em;
+    animation: colors 10s ease infinite;
+    background: linear-gradient(45deg, #83a2f2, #88e7f8, #558cae, #5e81db);
+    background-size: 400% 400%;
+    animation: colors 25s ease infinite;
+    margin: 1px;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+#git:hover {
+    margin-top: 35px;
+   
+
+}
+#lk:hover {
+    margin-top: 35px;
+
+}
+#st:hover {
+    margin-top: 35px;
+    
+}
+
+#git{    
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 50px;
+    margin-left: 1px;
+}
+
+#lk{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 50px;
+
+}
+#st{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 50px;
+
+}
+.profile-container{
+    margin-top: 50px;
+    left: 40%;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    align-items: center;
+}
+#pf{
+    margin-right: 10px;
+}
+.elements h1{    
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+
+}
+.elements #ig{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 90%;
+    right: 5%;
+}
+.downpage{
+    top: 200%;
+}
+.slide-in h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+
+    color: #9db0dfb4;
+    top: 150px;
+    font-size: 30px;
+    position: absolute;
+    left: 630px;
+}
+.slide-in h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    color: #9db0dfb4;
+    top: 270px;
+    font-size: 20px;
+    position: absolute;
+    left: 800px;
+}
+.slide-in a{
+    position: absolute;
+    left: 65%;
+    top: 70%;
+
+}
+.slide-in{
+    right: 0;
+    width: 95%;
+    height: 550px;
+    background: fixed;
+    background-size: 200px;
+    background-color: rgb(8, 8, 26);
+    animation: pageDown 1s ease-in-out;
+    position: absolute;
+    top: 100%;
+}
+
+.odevpablo{
+    background-repeat: no-repeat;
+    background-size: 108%;
+    opacity: 80%;
+    background-image: url(img/IMG_4864.jpg);
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    align-items: center;
+
+
+}
+#lp{
+    position: absolute;
+    top: 225px;
+    left: 300px;
+}
+.background{
+    top: 100%;
+    left: 77px;
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 550px;
+    opacity: 20%;
+    background-color: #0c292f;
+}
+#bg:hover{
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 550px;
+    opacity: 20%;
+
+    background-color: #15bc2b;
+}
+
+.vertical-bar{
+    height: 40px;
+    width: 5px;
+    position: absolute;
+    top: 25px;
+    left: 17%;
+    border-radius: 3em;
+    background: linear-gradient(45deg,#6adb5e, #6adb5e, #15bc2b);
+    background-size: 400% 400%;
+    animation: colors 25s ease infinite; background-color: aliceblue;
+}
+
+.horizontal-bar {
+    display: flex;
+    opacity: 90%;
+    right: 90px;
+    top: 25px;
+    height: 5px;
+    width: 52.5%;
+    position: absolute;
+    background: linear-gradient(45deg,#83db79, #15bc2b, #6adb5e);
+    background-size: 400% 400%;
+    animation: colors 25s ease infinite;
+}
+
+.profile-sk {
+    display: flex;
+    border-radius: 4em;
+    position: absolute;
+    top:5px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg,#646964, #a4d2b2, #71e881, #6adb5e);
+    background-size: 400% 400%;
+    animation: colors 25s ease infinite;
+
+}
+@keyframes colors {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes pageDown{
+    0% {
+        opacity: 0;
+        transform: translate(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}   
+@keyframes boxleft {
+    0% {
+        transform: translate(-100%);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
