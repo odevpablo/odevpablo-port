@@ -129,7 +129,7 @@
     background-color: rgb(8, 8, 26);
     animation: pageDown 1s ease-in-out;
     position: absolute;
-    top: 100%;
+    top: 95%;
 }
 
 .odevpablo{
@@ -152,7 +152,7 @@
     left: 300px;
 }
 .background{
-    top: 100%;
+    top: 95%;
     left: 77px;
     position: absolute;
     display: flex;
